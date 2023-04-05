@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/panda_emoji.png" type="image/x-icon">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== SWIPER PROJECTS CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min1.css">
+
+  <!--=============== SWIPER TESTIMONIAL CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <title> Responsive portfolio website Ansel </title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/logo-transparent.png" alt="" class="home__img"></a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class='bx bx-user'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#store" class="nav__link">
+              <i class='bx bx-store'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#service" class="nav__link">
+              <i class='bx bx-purchase-tag'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class='bx bx-message-rounded-dots'></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Dark mode (theme change button) -->
+      <i class='bx bx-moon change-theme' id="theme-button">
+      </i>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Hi there! I'm</span>
+          <h1 class="home__name">Kitta</h1>
+          <h3 class="home__education">Graphics Designer</h3>
+        </div>
+
+        <div class="home__handle">
+          <img src="assets/img/logo-transparent.png" alt="" 67>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.instagram.com/kittapb/" target="_blank" class="home__social-link home__social-instagram">
+            <i class='bx bxl-instagram'></i>
+          </a>
+
+          <a href="https://twitter.com/Kittapb" target="_blank" class="home__social-link home__social-twitter">
+            <i class='bx bxl-twitter'></i>
+          </a>
+
+          <a href="" class="home__social-link home__social-linkedin" target="_blank">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+
+          <a href="https://www.behance.net/kittapb" class="home__social-link home__social-behance" target="_blank">
+            <i class='bx bxl-behance'></i>
+          </a>
+        </div>
+
+        <a href="#about" class="home__scroll">
+
+        </a>
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <span class="section__subtitle">Info</span>
+      <h2 class="section__title">ABOUT</h2>
+
+      <div class="about__container container grid">
+        <!-- <img src="assets/img/profile_pic.png" alt="" class="about__img"> -->
+        <!-- <div class="about__data"> -->
+        <!-- <div class="about__info">
+                      <div class="about__box">
+                        <i class='bx bxs-award'></i>
+                        <h3 class="about__title">Experience</h3>
+                        <span class="about__subtitle">7 Years Working</span>
+                      </div>
+                    </div> -->
+
+        <!-- <p class="about__description">
+          My passion and skills lie in creating stunning illustrations and digital products, which I offer to
+          customers around the globe 🌎 They trust me with the design, implementation, and management of their digital
+          products, knowing that I am committed to delivering high-quality results 🌟 Lately, I have been expanding my
+          knowledge by learning about the intricacies of Esty Ads and Shopify 🛒
+        </p> -->
+
+        <div class="blockquote-wrapper">
+          <div class="blockquote">
+            <h1>
+              My passion and skills lie in creating stunning illustrations and digital products, which I offer to
+              customers around the globe 🌎 They trust me with the design, implementation, and management of their
+              digital
+              products, knowing that I am committed to delivering high-quality results 🌟 Lately, I have been expanding
+              my
+              knowledge by learning about the intricacies of Esty Ads and Shopify 🛒
+            </h1>
+            <img src="assets/img/profile_pic.png" alt="" class="about__img">
+            <h4>&mdash; Kitta<br><em>Boba Lover ❤</em></h4>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== STORE ===============-->
+    <section class="store section" id="store">
+      <span class="section__subtitle">Shop</span>
+      <h2 class="section__title">NAHAAK</h2>
+
+      <div class="store__container container grid">
+        <div class="store__group">
+          <img src="assets/img/bestfriend2.png" alt="" class="store__img">
+          <!-- <img src="assets/img/nahaak_couple.png" alt="" class="store__img"> -->
+
+
+          <!-- <div class="store__card">
+            <h3 class="store__card-title">Custom Portrait Sweatshirt</h3>
+            <p class="store__card-description">
+              Custom Portrait Sweatshirt
+            </p>
+          </div> -->
+        </div>
+
+        <div class="store__data">
+          <h2 class="section__title store__title">
+            Relatable, Minimalist & Cozy Clothing
+          </h2>
+
+          <p class="store__description">
+            These custom portrait is best as gifts or for business purposes.
+          </p>
+
+          <a href="https://www.etsy.com/ca/listing/1322565665/best-friend-custom-portrait-sweatshirt?click_key=a68858fb11b26a644056079af3c97ebb6ffffb50%3A1322565665&click_sum=87b3f016&ref=shop_home_feat_1&frs=1&bes=1&sts=1"
+            target="_blank" class="store__button">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="service">
+      <span class="section__subtitle">What I do</span>
+      <h2 class="section__title">SERVICES</h2>
+
+      <div class="services__container container grid">
+        <div class="services__card">
+          <h3 class="services__title">Illustration</h3>
+
+          <span class="services__button">
+            More<i class='bx bxs-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+
+              <h3 class="services__modal-title">Illustration</h3>
+              <p class="services__modal-description">
+                <!-- Illustrations for brands, books, social media and more. -->
+                Digital illustrations for both <br>personal and commercial use
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Original hand drawn illustration
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Minimal and faceless style line art
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    High-quality and unique graphics
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h3 class="services__title">Logo Design</h3>
+
+          <span class="services__button">
+            More<i class='bx bxs-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+
+              <h3 class="services__modal-title">Logo Design</h3>
+              <p class="services__modal-description">
+                A Logo is the face of your brand <br>which is as equally important as <br>the success of your business
+              </p>
+              <!-- A logo is a customer's first impression of your brand, and it should be unforgettable -->
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    A sophisticated, unforgettable brand concept created from scratch
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    An organic, painless brand creation process
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Unmatched and undivided customer attention
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Professional, unique and fresh ideas
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h3 class="services__title">Print Design</h3>
+
+          <span class="services__button">More<i class='bx bxs-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+
+              <h3 class="services__modal-title">Print Design</h3>
+              <p class="services__modal-description">
+                Designs for all Print-On-Demand platforms and for all Niches
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Personalized illustrations are drawn from your very own picture
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Printed with the highest quality and durability HTV
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    Print-ready high resolution .png, .jpg or .psd files
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+                    It is not an embroidery design
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== PROJECTS ===============-->
+    <section class="section">
+      <span class="section__subtitle">Most recent</span>
+      <h2 class="section__title">PROJECTS</h2>
+
+      <div class="container section__border">
+        <div class="projects__container  swiper">
+
+
+
+          <div class="swiper-wrapper ">
+            <!--=============== Project 1 ===============-->
+            <div class="projects__content  swiper-slide">
+              <div class="projects__card">
+                <img src="assets/img/projects_nahaak_bg.png" alt="projects image" class="projects__img">
+
+                <div>
+                  <span class="projects__subtitle">Online Store</span>
+                  <h1 class="projects__title">Nahaak</h1>
+
+                  <a href="https://www.etsy.com/ca/shop/Nahaakshop?ref=simple-shop-header-name&listing_id=1322565665"
+                    class="projects__button">
+                    Shop <i class='bx bxs-right-arrow-alt'></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!--=============== Project 2 ===============-->
+            <div class="projects__content swiper-slide">
+              <div class="projects__card">
+                <img src="assets/img/projects_designBoba_bg.png" alt="projects image" class="projects__img">
+
+                <div>
+                  <span class="projects__subtitle">Online Store</span>
+                  <h1 class="projects__title">design boba</h1>
+
+                  <a href="https://www.etsy.com/shop/designboba/?etsrc=sdt" class="projects__button">
+                    Shop <i class='bx bxs-right-arrow-alt'></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!--=============== Project 3 ===============-->
+            <!-- <div class="projects__content swiper-slide">
+              <div class="projects__card">
+                <img src="assets/img/" alt="projects image" class="projects__img">
+
+                <div>
+                  <span class="projects__subtitle">App</span>
+                  <h1 class="projects__title">Dating</h1>
+
+                  <a href="#" class="projects__button">
+                    Demo <i class='bx bxs-right-arrow-alt'></i>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+            <!--=============== Project 4 ===============-->
+            <!-- <div class="projects__content swiper-slide">
+              <div class="projects__card">
+                <img src="assets/img/" alt="projects image" class="projects__img">
+
+                <div>
+                  <span class="projects__subtitle">App</span>
+                  <h1 class="projects__title">Design Mobile</h1>
+
+                  <a href="#" class="projects__button">
+                    Demo <i class='bx bxs-right-arrow-alt'></i>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+
+          <!-- Swiper Arrows -->
+          <div class="swiper-button-next">
+            <i class='bx bx-chevron-right'></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class='bx bx-chevron-left'></i>
+          </div>
+
+
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!--=============== TESTIMONIALS ===============-->
+    <section class="testimonial section">
+      <span class="section__subtitle">My clients say</span>
+      <h2 class="section__title">TESTIMONIAL</h2>
+
+      <div class="testimonial__container container swiper">
+        <div class="swiper-wrapper">
+
+          <!-- Testimonial 1 -->
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/thania.png" alt="" class="testimonial__img">
+
+            <h3 class="testimonial__name">Thania</h3>
+            <p class="testimonial__description">
+              Excellent services, communication went super well. They were emphatic for the reason that I bought this
+              gift from a friend. Delivery was fast. Great quality. I am satisfied. I will order again. Great gift to
+              give for a loved one. I recommend
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/valerie.png" alt="" class="testimonial__img">
+
+            <h3 class="testimonial__name">Valérie</h3>
+            <p class="testimonial__description">
+              It is beautiful, I am delighted with the service I have received. Magnificent quality of the material, the
+              size is perfect, and the image is beyond my expectations.
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial__card swiper-slide">
+            <img src="assets/img/claudia.png" alt="" class="testimonial__img">
+
+            <h3 class="testimonial__name">Claudia </h3>
+            <p class="testimonial__description">
+              Such a great Experience creating this sweater. Adding the Custom message and circle around the drawing
+              really pulled it all together for me! if i could give 100 stars or more to this shop I would!
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <span class="section__subtitle">Get in touch</span>
+      <h2 class="section__title">CONTACT</h2>
+
+      <div class="contact__container container grid">
+
+        <div class="contact__content">
+
+          <form action="" class="contact__form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Name</label>
+              <input type="text" placeholder="Insert your name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Email</label>
+              <input type="email" placeholder="Insert your email" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Message</label>
+
+              <textarea name="" id="" cols="30" rows="10" placeholder="Write your message ..."
+                class="contact__form-input"></textarea>
+            </div>
+
+            <button class="contact__button">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Kitta</h1>
+
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">About</a>
+        </li>
+
+        <li>
+          <a href="#store" class="footer__link">Shop</a>
+        </li>
+
+        <li>
+          <a href="#service" class="footer__link">Services</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="https://www.instagram.com/kittapb/" target="_blank" class="footer__social-link">
+          <i class='bx bxl-instagram'></i>
+        </a>
+
+        <a href="https://twitter.com/Kittapb" target="_blank" class="footer__social-link">
+          <i class='bx bxl-twitter'></i>
+        </a>
+
+        <a href="" class="footer__social-link" target="_blank">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+
+        <a href="" class="footer__social-link" target="_blank">
+          <i class='bx bxl-behance'></i>
+        </a>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Kittap. All rights reserved.
+      </span>
+    </div>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src=""></script>
+
+  <script src="light-on.json"></script>
+
+
+  <!--=============== SWIPER PROJECTS JS ===============-->
+  <script src="assets/js/swiper-bundle.min1.js"></script>
+
+  <!--=============== SWIPER TESTIMONIAL JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src=""></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
