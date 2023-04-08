@@ -486,25 +486,25 @@
 
         <div class="contact__content">
 
-          <form action="" class="contact__form">
+          <form name="contact" method="POST" class="contact__form" data-netlify="true">
             <div class="contact__form-div">
-              <label for="" class="contact__form-tag">Name</label>
-              <input type="text" placeholder="Insert your name" class="contact__form-input">
+              <label class="contact__form-tag">Name</label>
+              <input type="text" placeholder="Insert your name" class="contact__form-input" required>
             </div>
 
             <div class="contact__form-div">
-              <label for="" class="contact__form-tag">Email</label>
-              <input type="email" placeholder="Insert your email" class="contact__form-input">
+              <label class="contact__form-tag">Email</label>
+              <input type="email" placeholder="Insert your email" class="contact__form-input" required>
             </div>
 
             <div class="contact__form-div contact__form-area">
-              <label for="" class="contact__form-tag">Message</label>
+              <label class="contact__form-tag">Message</label>
 
-              <textarea name="" id="" cols="30" rows="10" placeholder="Write your message ..."
-                class="contact__form-input"></textarea>
+              <textarea cols="30" rows="10" placeholder="Write your message ..." class="contact__form-input"
+                required></textarea>
             </div>
 
-            <button class="contact__button">Send</button>
+            <button type="submit" class="contact__button">Send</button>
           </form>
         </div>
       </div>
