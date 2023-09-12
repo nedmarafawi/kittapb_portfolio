@@ -543,13 +543,20 @@ body.light-theme {
   color: #fff;
 }
 
-.home__social-twitter:hover {
-  background-color: rgb(29, 155, 240);
+
+.home__social-etsy:hover {
+  background-color: #f1641e;
 }
 
 .home__social-instagram:hover {
   background-color: #c5015dbb;
 }
+
+.home__social-twitter:hover {
+  background-color: rgb(29, 155, 240);
+}
+
+
 
 
 .home__social-linkedin:hover {
