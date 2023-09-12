@@ -1,7 +1,7 @@
  
 <p align="center">
   <a target="_blank" rel="noopener noreferrer" href="https://kittapb.com">
-    <img src="https://github.com/nedmarafawi/kittapb_portfolio/blob/master/assets/img/logo-transparent.png" alt="valkyrie_logo" width="300" style="max-width:100%;">
+    <img src="https://github.com/nedmarafawi/kittapb_portfolio/blob/master/assets/img/logo-transparent.png" alt="valkyrie_logo" width="280" style="max-width:100%;">
   </a>
 </p>
 <h1 align="center">Kittapb.com</h1>
